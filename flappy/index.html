@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flappy Bird using JS | by learnWD</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="flappy.css">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../preloader/preloader.js"></script>
+    <script defer src="flappyBird.js"></script>
+    <script defer src="../DU.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <header id="findFag"><span id="mission"></span></header>
+    <main class="main"><img src="../img/oldTV.png" id="tv">
+        <div id="containerGame">
+            <canvas id="canvas" width="288" height="512"></canvas>
+        </div>
+        <div id="flappyMenu">
+            <h3 class="gameName">ПТИЦА</h3>
+            <button id="flappyStartBtn">Start</button>
+        </div>
+    </main>
+    <aside class="left"> <span id="leaderBoard">
+          <div id="yourBestScore">
+              <h4>
+        ТВОЙ &nbsp ЛУЧШИЙ &nbsp РЕЗУЛЬТАТ
+              </h4>
+          </div>
+              <p class="scoreStyle" id="flappyScore"></p>
+    </span></aside>
+    <aside class="right">
+        <div id="controllerDiv">
+            <img id="controller" src="../img/control.PNG" alt="">
+            <button type="button" id="offBtn"></button>
+            <button id="resetFlappy" class="reset" type="button" onclick="resetFlappy()" ></button>
+            <button type="button"  id="toMenu" class="toMenu"></button>
+            <button type="button"  id="mute" class="mute"></button>
+            <button type="button"  id="play" class="play"><span class="playIcon">></span></button>
+        </div>
+    </aside>
+    <footer class="footer"></footer>
+</div>
+
+<div id="preloader">
+    <div id="preloader_preload"></div>
+</div>
+<audio id="audio" src="../music/vitas.mp3" ></audio>
+</body>
+</html>

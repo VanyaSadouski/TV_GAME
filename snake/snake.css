@@ -1,0 +1,99 @@
+.snake-board {
+    position: relative;
+    display: inline-block;
+    border: 7px solid #000000;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.snake-board .preview {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    background-color: #4d4d4d;
+}
+
+.snake-board .score {
+    font-size: 200%;
+    color: yellow;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.snake-board button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 30%;
+    color: yellow;
+    height: 10%;
+    margin-left: -15%;
+    margin-top: -5%;
+    font-size: 100%;
+    background-color: gray;
+    border: 1px solid yellow;
+    border-radius: 40%;
+}
+
+.snake-board button:hover {
+    background-color: #ffed65;
+    color: black;
+    cursor: pointer;
+}
+
+.snake-board table {
+    border-collapse: collapse;
+
+}
+
+.snake-board td {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+.snake-board .col {
+    background-color: #4d4d4d;
+}
+
+.snake-board .snake {
+    background-color: #feff0a;
+}
+
+.snake-board .fruit {
+    background-color: red;
+}
+
+#containerGame{
+
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: black;
+    z-index: 3;
+    top: 290px;
+    left: 300px;
+}
+
+#leaderBoard{
+    color: white;
+    font-size: 20px;
+}
+
+.gameName{
+    font-size: 30px;
+    color: #00ff00;
+    padding-top: 20px;
+}
+
+
+/*background: url("../img/tvScreen.jpg") no-repeat ;*/
+/*background-size: cover;*/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../preloader/preloader.js"></script>
+    <link rel="stylesheet" href="gta.css">
+
+</head>
+<body>
+<div class="container">
+    <header id="findFag"><span id="mission"></span></header>
+    <main class="main"><img src="../img/oldTV.png" id="tv">
+        <div id="containerGame">
+<div id="coming">В РАЗРАБОТКЕ</div>
+        </div>
+    </main>
+    <aside class="left"><span id="leaderBoard"></span></aside>
+    <aside class="right">
+
+        <div id="controllerDiv">
+            <img id="controller" src="../img/control.PNG" alt="">
+            <button type="button" id="offBtn"></button>
+            <button type="button" id="reset" class="reset"></button>
+            <button type="button" id="toMenu" class="toMenu" onclick="toMenu()"></button>
+        </div>
+
+    </aside>
+    <footer class="footer"></footer>
+</div>
+<div id="preloader">
+    <div id="preloader_preload"></div>
+</div>
+
+<script>
+    function toMenu() {
+        location.href = "../index.html";
+    }
+</script>
+</body>
+</html>

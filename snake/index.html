@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../preloader/preloader.js"></script>
+    <script defer src="snake.js"></script>
+    <script defer src="../DU.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <header id="findFag"><span id="mission"></span></header>
+    <main class="main"><img src="../img/oldTV.png" id="tv" >
+        <div id="containerGame"></div>
+    </main>
+    <aside class="left"> <span id="leaderBoard">
+        <div id="yourBestScore">
+              <h4>
+        ТВОЙ &nbsp ЛУЧШИЙ &nbsp РЕЗУЛЬТАТ
+              </h4>
+          </div>
+        <p class="scoreStyle" id="snakeScore"></p>
+    </span></aside>
+    <aside class="right" >
+        <div id="controllerDiv">
+            <img id="controller" src="../img/control.PNG" alt="">
+            <button id="offBtn" type="button"></button>
+            <button id="resetSnake" class="reset" type="button" onclick="resetSnake()"></button>
+            <button id="toMenu" type="button" class="toMenu"></button>
+            <button type="button"  id="mute" class="mute"></button>
+            <button type="button"  id="play" class="play"><span class="playIcon">></span></button>
+        </div>
+    </aside>
+    <footer class="footer"> </footer>
+</div>
+
+<audio id="audio" src="../music/belaya.mp3" ></audio>
+<div id="preloader">
+    <div id="preloader_preload"></div>
+</div>
+
+</body>
+</html>

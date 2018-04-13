@@ -1,0 +1,18 @@
+#containerGame{
+    width: 450px;
+    height: 320px;
+    position: fixed;
+    display: inline-block;
+    border-radius: 10% 10% 10% 10%;
+    background: url("White.gif");
+    z-index: 3;
+    top: 290px;
+    left: 300px;
+}
+
+#coming{
+    position: relative;
+    font-size: 50px;
+    top: 40%;
+    left: 22%;
+}

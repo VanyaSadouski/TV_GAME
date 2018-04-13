@@ -1,0 +1,93 @@
+#pongMenu{
+    border: 5px solid black;
+    border-radius: 15px;
+    top: 240px;
+    left: 200px;
+    height: 310px;
+    width: 450px;
+    background: #4d4d4d;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+
+#pongStartBtn {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 30%;
+    color: yellow;
+    height: 10%;
+    margin-left: -15%;
+    margin-top: -5%;
+    font-size: 100%;
+    background-color: gray;
+    border: 1px solid #ffed65;
+    border-radius: 40%;
+}
+
+#pongStartBtn:hover {
+    background-color: #ffed65;
+    color: black;
+    cursor: pointer;
+}
+
+#containerGame{
+    width: 450px;
+    height: 320px;
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    z-index: 3;
+    top: 290px;
+    left: 300px;
+}
+
+#leaderBoard{
+    color: white;
+    font-size: 20px;
+}
+#canvas{
+    border: 5px solid #ffed65;
+    border-radius: 5px;
+    position: fixed;
+    top: 290px;
+    left: 400px;
+    height: 310px;
+    width: 240px;
+}
+
+#life{
+    position: relative;
+    top: 35%;
+    left: 5%;
+    max-width: 20px;
+    font-size: 20px;
+}
+
+#lifeLeft{
+    color: red;
+    font-size: 25px;
+}
+
+#time{
+    color: red;
+    position: relative;
+    top: 20%;
+    font-size: 26px;
+    left: 78.5%;
+}
+
+#pongScore{
+    font-size: 30px;
+    color: red;
+    height: 100%;
+    margin-top: 290px;
+    padding-left: 50px;
+    word-wrap: break-word;
+    width: 30px;
+
+}
